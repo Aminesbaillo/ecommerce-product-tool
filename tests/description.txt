@@ -1,0 +1,1 @@
+This folder contains unit tests for different parts of the project, including data scraping, cleaning, and model testing.

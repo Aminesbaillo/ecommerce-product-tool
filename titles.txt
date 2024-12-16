@@ -1,0 +1,7 @@
+Data Collection
+Data Engineering
+Supplier Clustering
+Predictive Profitability Modeling
+Sentiment Analysis
+Recommendations and Ranking
+Visualization and Reporting

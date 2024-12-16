@@ -1,0 +1,35 @@
+ecommerce-product-tool/
+│
+├── data/
+│   ├── raw/                # Raw scraped data from Alibaba and resale platforms
+│   ├── processed/          # Cleaned and merged datasets
+│   ├── results/            # Final datasets and analysis results
+│
+├── notebooks/
+│   ├── 1_data_collection.ipynb  # Data scraping scripts
+│   ├── 2_data_engineering.ipynb # Cleaning and preprocessing
+│   ├── 3_modeling.ipynb         # Clustering, regression, sentiment analysis
+│   ├── 4_visualization.ipynb    # Creating visualizations and summaries
+│
+├── scripts/
+│   ├── scrape_alibaba.py        # Script for Alibaba scraping
+│   ├── scrape_resale.py         # Script for resale platform scraping
+│   ├── data_cleaning.py         # Data cleaning and preprocessing script
+│   ├── clustering.py            # Supplier clustering model
+│   ├── profitability_model.py   # Profitability prediction script
+│   ├── sentiment_analysis.py    # Sentiment analysis script
+│   ├── run_pipeline.py          # Main pipeline script to automate everything
+│
+├── tests/
+│   ├── test_scraping.py         # Unit tests for scraping
+│   ├── test_data_cleaning.py    # Unit tests for data preprocessing
+│   ├── test_models.py           # Unit tests for models
+│
+├── results/
+│   ├── insights.pdf             # Final report or summary
+│   ├── visualizations/          # Generated plots and charts
+│
+├── .gitignore                   # Ignore unnecessary files
+├── README.md                    # Project overview and instructions
+├── requirements.txt             # Python dependencies
+└── LICENSE                      # Project license (optional)

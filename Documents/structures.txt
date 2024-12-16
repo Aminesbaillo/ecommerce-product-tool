@@ -1,0 +1,35 @@
+ecommerce-product-tool/
+│
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   ├── results/
+│
+├── notebooks/
+│   ├── 1_data_collection.ipynb
+│   ├── 2_data_engineering.ipynb
+│   ├── 3_modeling.ipynb
+│   ├── 4_visualization.ipynb
+│
+├── scripts/
+│   ├── scrape_alibaba.py
+│   ├── scrape_resale.py
+│   ├── data_cleaning.py
+│   ├── clustering.py
+│   ├── profitability_model.py
+│   ├── sentiment_analysis.py
+│   ├── run_pipeline.py
+│
+├── tests/
+│   ├── test_scraping.py
+│   ├── test_data_cleaning.py
+│   ├── test_models.py
+│
+├── results/
+│   ├── insights.pdf
+│   ├── visualizations
+│
+├── .gitignore
+├── README.md
+├── requirements.txt
+└── LICENSE

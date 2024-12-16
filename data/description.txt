@@ -1,0 +1,1 @@
+This folder contains all the data for the project. Raw data goes in 'raw/', processed data in 'processed/', and results in 'results/'.

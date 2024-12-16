@@ -1,0 +1,1 @@
+This folder contains Python scripts for scraping data, cleaning it, performing analysis, and running the pipeline.
